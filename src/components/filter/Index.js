@@ -1,8 +1,13 @@
-import {InputSearch, FiltersContainer, SelectSearch, SelectOrder} from "../filter/Styled";
+import {
+  InputSearch,
+  FiltersContainer,
+  SelectSearch,
+  SelectOrder,
+} from "../filter/Styled";
 
 function Filters(props) {
-
-  return <FiltersContainer>
+  return (
+    <FiltersContainer>
       <InputSearch
         placeholder="Pesquisar"
         value={props.query}
@@ -42,7 +47,7 @@ function Filters(props) {
         <option value={"asc"}>Crescente</option>
         <option value={"desc"}>Decrescente</option>
       </SelectOrder>
-
-    </FiltersContainer> 
+    </FiltersContainer>
+  );
 }
 export default Filters;

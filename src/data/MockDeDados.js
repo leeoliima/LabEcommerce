@@ -8,8 +8,6 @@ import Rosetta from "../img/rosetta.jpg";
 import Galileo from "../img/galileo.jpg";
 import { Image } from "./StyledMock";
 
-
-
 const products = [
   {
     id: "satelite1",
@@ -17,16 +15,13 @@ const products = [
     price: 100,
     image: <Image src={Sputnik} />,
   },
-  { id: "satelite2", 
-    name: "Vostok 1", 
-    price: 13, 
-    image: <Image src={Vostok} /> 
+  {
+    id: "satelite2",
+    name: "Vostok 1",
+    price: 13,
+    image: <Image src={Vostok} />,
   },
-  { id: "satelite3", 
-    name: "Luna 10", 
-    price: 75, 
-    image: <Image src={Luna} /> 
-  },
+  { id: "satelite3", name: "Luna 10", price: 75, image: <Image src={Luna} /> },
   {
     id: "satelite4",
     name: "Mariner 9",
@@ -45,15 +40,17 @@ const products = [
     price: 10,
     image: <Image src={Telescopio} />,
   },
-  { id: "satelite7", 
-    name: "Rosetta", 
-    price: 32, 
-    image: <Image src={Rosetta} /> 
+  {
+    id: "satelite7",
+    name: "Rosetta",
+    price: 32,
+    image: <Image src={Rosetta} />,
   },
-  { id: "satelite8", 
-    name: "Galileo", 
-    price: 26, 
-    image: <Image src={Galileo} /> 
+  {
+    id: "satelite8",
+    name: "Galileo",
+    price: 26,
+    image: <Image src={Galileo} />,
   },
 ];
 
