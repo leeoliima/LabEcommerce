@@ -1,13 +1,13 @@
-import  HeaderContainer  from './Styled';
+import HeaderContainer from "./Styled";
 import logo from "../../img/labecommerce-logo.png";
-import React from 'react';
+import React from "react";
 
- function Header() {
-   return (
-   <HeaderContainer>
-     <img src={logo} alt="logotipo"/>
-   </HeaderContainer>
-   )
+function Header() {
+  return (
+    <HeaderContainer>
+      <img src={logo} alt="logotipo" />
+    </HeaderContainer>
+  );
 }
 
 export default Header;
