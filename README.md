@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+<h2 align="center">
+    <br>
+    <p align="center" style="font-weight: bold;"> 🚀 Projeto LabEcommerce
+<p>
+</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Resumo</h1>
 
-## Available Scripts
+- A proposta foi montar um e-commerce de itens espaciais, dentre as diferentes linhas de produtos escolhemos osa satélites, sendo vendidos na moeda Bitcoin;
+ 
+- Esse projeto foi todo construido com React e foi possivel aprender algumas lições muito importantes sobre alguns Hooks como useState e useEffect ao longo do projeto. Aprendendo sobre como useState modifica valores, como useEffect nos permite executar código juntamente com localStorage definindo e obtendo dados.
 
-In the project directory, you can run:
+<h2>
+    <p style="font-weight: bold;">⭐ Requisitos do Projeto</p>
+</h2>
 
-### `npm start`
+O projeto consiste em 3 grandes partes:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Parte 1 - Home 🏠
+<details> 
+<summary>No mínimo 6 cards de produtos contendo cada:</summary>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Imagem do produto
 
-### `npm test`
+- Nome do produto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Valor do produto
 
-### `npm run build`
+- Botão que permita adicioná-los ao carrinho
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Mostrar todos os produtos
+</details>
+<details>
+<summary>Ordenação</summary>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Possibilidade de ordenar todos os produtos por ordem crescente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Possibilidade de ordenar todos os produtos por ordem decrescente
 
-### `npm run eject`
+- Possibilidade de ordenar juntamente com o Filtro
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Parte 2 - Filtro  💦
+<details>
+<summary>Conter um filtro com as seguintes funcionalidades</summary>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Poder Filtrar um produto por valor mínimo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Poder Filtrar um produto por valor máximo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Poder Filtrar um produto pelo nome do produto
 
-## Learn More
+- Poder Filtrar um produto com os três filtros simultâneos (valor mínimo + valor máximo + nome do produto )
+</details>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Parte 3 -  Carrinho  🛒
+<details>
+<summary>Carrinho de compras contendo:</summary>
+    
+- Todos os produtos que foram comprados
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- A quantidade de cada produto comprado
 
-### Code Splitting
+- Possibilidade de Remover o produto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Mostrar o valor total dos produtos corretamente
 
-### Analyzing the Bundle Size
+- Possibilidade de salvar os valores das compras, mesmo quando recarrega a página
+</details>
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<h2>
+    <br>
+    <p style="font-weight: bold;"> Link do projeto</p>
+</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ ### ➡  [LabEcommerce](http://foregoing-taste.surge.sh/)
 
-### Advanced Configuration
+ <br>
+    <p style="color: #D30404; font-weight: bold;"> 📸 Prints das Telas</p>
+</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://user-images.githubusercontent.com/96210622/204017595-4aa94573-81fd-4ee8-99ff-58722f30d69d.png)
 
-### Deployment
+![image](https://user-images.githubusercontent.com/96210622/204017661-35e4d2ef-c737-4eb5-8011-f73985e1c66c.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![image](https://user-images.githubusercontent.com/96210622/204017787-49da7318-b697-4095-8b53-a0e156068bb9.png)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<br>
+
+## 🛠️ Construído com
+<br>
+<p>
+<img witdh="40px" height="40px" src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png">
+<img witdh="40px" height="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"> 
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856370-844eb1b7-11f6-48cd-abec-21c1da4b38b4.png">
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856432-c20873d2-9b31-412e-92e9-a1f6c609b40c.png">
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856484-18282144-9061-42ee-9691-66c6454b362f.png">
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856535-00dbc8fe-e415-4fa3-8d81-50975fb8839c.png">
+</p>
+
+<h2>
+    <br>
+    <p style="font-weight: bold;">👨‍💻 Grupo do Projeto</p>
+</h2>
+
+<table>
+  <tr>
+       <td align="center"><a href="https://github.com/leeoliima"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/96210622?v=4" width="100px;" alt=""/><br /><sub><b>Leandro Lima</b></sub></a><br /></td> 
+    <td align="center"><a href="https://github.com/brazaoo"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/102330950?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Brazão</b></sub></a><br /></td>
+     <td align="center"><a href="https://github.com/vmotta95"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/102388553?v=4" width="100px;" alt=""/><br /><sub><b>Victor de Oliveira</b></sub></a><br /></td> 
+   
+  </tr>
+</table>
