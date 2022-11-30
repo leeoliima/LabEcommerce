@@ -75,7 +75,7 @@ O projeto consiste em 3 grandes partes:
     <p style="font-weight: bold;"> Link do projeto</p>
 </h2>
 
- ### ➡  [LabEcommerce](http://foregoing-taste.surge.sh/)
+ ### ➡  [LabEcommerce](http://roomy-spiders.surge.sh)
 
  <br>
     <p style="color: #D30404; font-weight: bold;"> 📸 Prints das Telas</p>
