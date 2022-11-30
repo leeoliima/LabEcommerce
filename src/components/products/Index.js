@@ -20,7 +20,7 @@ function Card({ addToCart, name, price, image }) {
           <p>{name}</p>
         </CardName>
 
-        <CardPrice>₿ {price}</CardPrice>
+        <CardPrice> ₿ {price}</CardPrice>
 
         <ButtonCart onClick={() => addToCart(name, price)}>
           Adicionar ao Carrinho
