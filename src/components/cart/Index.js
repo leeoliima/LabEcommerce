@@ -24,7 +24,7 @@ export function Cart({ removeProductFromCart }) {
           <ProductOnCart key={product.name}>
             <p>{product.quantity} - </p>
             <p> {product.name}</p>
-            <p> R$ {product.price}</p>
+            <p> ₿ {product.price}</p>
             <ButtonRemove onClick={() => removeProductFromCart(product)}>
               Retirar do carrinho
             </ButtonRemove>
@@ -40,7 +40,7 @@ export function Cart({ removeProductFromCart }) {
       <h2>Carrinho:</h2>
       {renderProductsOnCart()}
       <h2>
-        <b>Valor total: {getTotalValue()}</b>
+        <b>Valor total: ₿ {getTotalValue()}</b>
       </h2>
     </CartContainer>
   );
